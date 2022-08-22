@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d8d3d392;
+    margin: 50px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name {
+    display: flex;
+}
+
+.name p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.name i {
+    margin: 10px 10px 0 20px;
+    font-size: 25px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 25px;
+}
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4b33d2;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+.content{
+    display: flex;
+    margin-top: 50px ;
+}
+form{
+    margin: 50px 30px;
+}
+form input {
+    border: none;
+}
+form .ns{
+    width: 300px;
+    height: 50px;
+    padding: 0 20px;
+}
+form .but{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #317bd0;
+    color: azure;
+    transition: 0.8s;
+}
+form .but:hover{
+    background-color: #8172da;
+
+}
+.Retour {
+    border-radius: 20px;
+    background: rgb(16, 175, 48);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-left: 500px;
+
+
+}
+
+.Retour:hover {
+    background-color: rgb(65, 108, 161);
+    color: aliceblue;
+}
+.Ajouter {
+    border-radius: 20px;
+    background: rgb(28, 65, 247);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-left: 200px;
+
+}
+
+.Ajouter:hover {
+    background-color: rgb(65, 108, 161);
+    color: aliceblue;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    text-align: center;
+    margin: 100px 30px;
+
+}
+
+#customers td,
+#customers th {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+#customers tr:hover {
+    background-color: rgb(217, 66, 66);
+    color: #000;
+}
+#customers #trd{
+    text-transform: uppercase;
+    border-top: 2px solid black;
+}
+#customers #trd:hover {
+    background: none;
+
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+#delet,
+#update {
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #261586;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px;
+    transition: 0.5s;
+}
+
+
+#update:hover,
+#delet:hover {
+    background: #317bd0;
+    letter-spacing: 1px;
+}
+
+.pp{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px ;
+    color: #c92020;
+}

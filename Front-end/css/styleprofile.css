@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d8d3d392;
+    margin: 50px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name {
+    display: flex;
+}
+
+.name p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.name i {
+    margin: 10px 10px 0 20px;
+    font-size: 25px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 25px;
+}
+table{
+    margin: 5px 280px;
+}
+table input{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+}
+table td{
+    width: 200px;
+}
+table td h1{
+    padding: 50px 10px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table button{
+    width: 605px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(54, 115, 221);
+    color: aliceblue;
+}
+table button:hover {
+    background-color: rgb(65, 108, 161);
+    color: aliceblue;
+}
+label{
+    font-size: 20px;
+    color: blue;
+    border-bottom: 3px solid green;
+}
+.Retour {
+    border-radius: 20px;
+    background: rgb(16, 175, 48);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px 25px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.Retour:hover {
+    background-color: rgb(65, 108, 161);
+    color: aliceblue;
+}

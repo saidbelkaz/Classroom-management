@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d8d3d392;
+    margin:50px 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    display: flex;
+}
+.name p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.name i{
+    margin: 10px 10px 0 20px ;
+    font-size: 25px;
+}
+header a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+section{
+    margin: 60px;
+    color: blue;
+}
+section article{
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 300px;
+    padding: 10px 75px 30px 100px;
+
+}
+section article a{
+    text-decoration: none;
+    color: blue;
+}
+section article p{
+    font-size: 30px;
+}
+section article i{
+    font-size: 80px;
+    padding:20px 70px;
+}

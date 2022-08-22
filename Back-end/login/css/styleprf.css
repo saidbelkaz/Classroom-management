@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content1 {
+    display: flex;
+    
+}
+
+
+header h1 {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 50px;
+    margin: 10px 0 0 0 ;
+
+}
+
+section {
+    position: absolute;
+    left: 120vh;
+    top: 40vh;
+    background-color: rgb(251, 253, 255);
+    /* background: linear-gradient(to bottom, #ffcc99 0%, #ffffcc 100%); */
+}
+
+
+
+table input {
+    margin: 10px;
+    width: 55vh;
+    height: 40px;
+    padding-left: 30px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    color: black;
+
+}
+
+table #submit {
+    width: 390px;
+    border-radius: 20px;
+    background-color: rgb(74, 171, 255);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+form p{
+    margin: 80px 0 100px 190px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
